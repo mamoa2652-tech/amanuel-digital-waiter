@@ -29,7 +29,7 @@ ADMIN_ID = 7547455364
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # 👥 የኅብረቱ ልጆች ዝርዝር
-HIBRET_MEMBERS = [6855238181, 7744855538, 7466483442]  
+HIBRET_MEMBERS = [6855238181, 7744855538, 7466483442, 7571898702]  
 
 # የዳታቤዝ ግንኙነት
 conn = sqlite3.connect("challenge.db", check_same_thread=False)
