@@ -172,4 +172,5 @@ def handle_youtube_link(message):
 
 if __name__ == "__main__":
     print("🤖 ቦቱ በተሳካ ሁኔታ ሥራ ጀምሯል...")
-    bot.infinity_polling()
+    bot.polling(none_stop=True, timeout=60)
+
